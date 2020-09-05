@@ -141,7 +141,14 @@ namespace SimpleSharpEnum
             Console.WriteLine("Is Elevated:" + "\t\t" + IsHighIntegrity());
             Console.WriteLine("DotNET Version:" + "\t\t" + Environment.Version);
             Console.WriteLine("Current Dir:" + "\t\t" + Directory.GetCurrentDirectory());
-            Console.WriteLine("Assembly Dir:" + "\t\t" + Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
+            try
+            {
+                Console.WriteLine("Assembly Dir:" + "\t\t" + Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
+            }
+            catch
+            {
+                Console.WriteLine("Assembly Dir:" + "\t\t" + "Could not get assembly dir! Maybe the assembly is not on disk?");
+            }
             Console.WriteLine("Process Args:" + "\t\t" + string.Join(" ", args));
             Console.WriteLine("");
         }
@@ -295,3 +302,4 @@ namespace SimpleSharpEnum
         }
     }
 }
+
