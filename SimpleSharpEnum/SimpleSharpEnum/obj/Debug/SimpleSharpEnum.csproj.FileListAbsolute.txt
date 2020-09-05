@@ -1,0 +1,6 @@
+C:\Users\localadmin\source\repos\SimpleSharpEnum\SimpleSharpEnum\bin\Debug\SimpleSharpEnum.exe.config
+C:\Users\localadmin\source\repos\SimpleSharpEnum\SimpleSharpEnum\bin\Debug\SimpleSharpEnum.exe
+C:\Users\localadmin\source\repos\SimpleSharpEnum\SimpleSharpEnum\bin\Debug\SimpleSharpEnum.pdb
+C:\Users\localadmin\source\repos\SimpleSharpEnum\SimpleSharpEnum\obj\Debug\SimpleSharpEnum.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\SimpleSharpEnum\SimpleSharpEnum\obj\Debug\SimpleSharpEnum.exe
+C:\Users\localadmin\source\repos\SimpleSharpEnum\SimpleSharpEnum\obj\Debug\SimpleSharpEnum.pdb
