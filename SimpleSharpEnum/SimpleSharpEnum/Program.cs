@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Management;
 using Microsoft.Win32;
 using System.Net;
@@ -35,7 +35,7 @@ namespace SimpleSharpEnum
         [DllImport("netapi32.dll", EntryPoint = "NetLocalGroupGetMembers")]
         internal static extern uint NetLocalGroupGetMembers();
 
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Banner();
             Host();
