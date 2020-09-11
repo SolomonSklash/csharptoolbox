@@ -50,14 +50,22 @@ Function Invoke-Assembly {
 					Write-Output "[*] Attempting to load assembly with arguments: $arguments"
 				}
 				$a = (,[String[]]@($Arguments))
+				
+				$prevConOut = [Console]::Out
+				$sw = [IO.StringWriter]::New()
+				[Console]::SetOut($sw)
+				
 				try {
-					$output = $method.Invoke($null, $a)
-					Write-Output $output
+					$method.Invoke($null, $a)
 				}
 				catch {
 					Write-Output "[!] Could not invoke assembly or program crashed during execution"
 					throw
 				}
+				
+				[Console]::SetOut($PrevConOut)
+				$output = $sw.ToString()
+				$output
 			}
 		}
 	}
