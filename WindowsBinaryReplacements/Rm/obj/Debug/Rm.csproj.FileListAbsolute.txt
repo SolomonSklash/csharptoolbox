@@ -1,0 +1,7 @@
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Rm.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Rm.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Rm.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Rm\obj\Debug\Rm.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Rm\obj\Debug\Rm.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Rm\obj\Debug\Rm.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Rm\obj\Debug\Rm.csprojAssemblyReference.cache

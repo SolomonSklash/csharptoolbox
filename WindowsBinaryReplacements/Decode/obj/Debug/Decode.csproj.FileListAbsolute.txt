@@ -1,0 +1,10 @@
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Decode\bin\Debug\Decode.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Decode\bin\Debug\Decode.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Decode\bin\Debug\Decode.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Decode\obj\Debug\Decode.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Decode\obj\Debug\Decode.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Decode\obj\Debug\Decode.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Decode.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Decode.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Decode.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Decode\obj\Debug\Decode.csprojAssemblyReference.cache

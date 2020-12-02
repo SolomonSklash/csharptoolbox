@@ -1,0 +1,6 @@
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Mkdir.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Mkdir.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Mkdir.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Mkdir\obj\Debug\Mkdir.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Mkdir\obj\Debug\Mkdir.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Mkdir\obj\Debug\Mkdir.pdb

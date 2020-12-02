@@ -1,0 +1,8 @@
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Nslookup.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Nslookup.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Nslookup.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Nslookup\obj\Debug\Nslookup.csprojAssemblyReference.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Nslookup\obj\Debug\Nslookup.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Nslookup\obj\Debug\Nslookup.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Nslookup\obj\Debug\Nslookup.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Nslookup\obj\Debug\Nslookup.csproj.CopyComplete

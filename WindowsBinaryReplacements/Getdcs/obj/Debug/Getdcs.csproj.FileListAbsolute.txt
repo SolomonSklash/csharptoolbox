@@ -1,0 +1,10 @@
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Getdcs\bin\Debug\Getdcs.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Getdcs\bin\Debug\Getdcs.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Getdcs\bin\Debug\Getdcs.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Getdcs\obj\Debug\Getdcs.csprojAssemblyReference.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Getdcs\obj\Debug\Getdcs.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Getdcs\obj\Debug\Getdcs.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Getdcs\obj\Debug\Getdcs.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Getdcs.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Getdcs.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Getdcs.pdb

@@ -1,0 +1,10 @@
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Pwd\bin\Debug\Pwd.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Pwd\bin\Debug\Pwd.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Pwd\bin\Debug\Pwd.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Pwd\obj\Debug\Pwd.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Pwd\obj\Debug\Pwd.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Pwd\obj\Debug\Pwd.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Pwd.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Pwd.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Pwd.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Pwd\obj\Debug\Pwd.csprojAssemblyReference.cache

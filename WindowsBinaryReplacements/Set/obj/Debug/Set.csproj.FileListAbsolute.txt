@@ -1,0 +1,9 @@
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Set\bin\Debug\Set.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Set\bin\Debug\Set.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Set\bin\Debug\Set.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Set\obj\Debug\Set.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Set\obj\Debug\Set.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Set\obj\Debug\Set.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Set.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Set.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Set.pdb

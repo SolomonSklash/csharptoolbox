@@ -1,0 +1,7 @@
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Dclist.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Dclist.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Dclist.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Dclist\obj\Debug\Dclist.csprojAssemblyReference.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Dclist\obj\Debug\Dclist.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Dclist\obj\Debug\Dclist.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Dclist\obj\Debug\Dclist.pdb

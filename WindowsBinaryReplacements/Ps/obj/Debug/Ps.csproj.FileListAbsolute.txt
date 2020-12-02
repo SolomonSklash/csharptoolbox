@@ -1,0 +1,7 @@
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Ps.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Ps.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Ps.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Ps\obj\Debug\Ps.csprojAssemblyReference.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Ps\obj\Debug\Ps.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Ps\obj\Debug\Ps.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Ps\obj\Debug\Ps.pdb

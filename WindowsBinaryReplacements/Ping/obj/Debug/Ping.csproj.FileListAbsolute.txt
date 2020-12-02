@@ -1,0 +1,7 @@
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Ping.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Ping.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Ping.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Ping\obj\Debug\Ping.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Ping\obj\Debug\Ping.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Ping\obj\Debug\Ping.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Ping\obj\Debug\Ping.csprojAssemblyReference.cache

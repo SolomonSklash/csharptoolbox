@@ -1,0 +1,11 @@
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Ls\bin\Debug\Ls.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Ls\bin\Debug\Ls.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Ls\bin\Debug\Ls.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Ls\obj\Debug\Ls.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Ls\obj\Debug\Ls.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Ls\obj\Debug\Ls.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Ls.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Ls.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Ls.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Ls\obj\Debug\Ls.csprojAssemblyReference.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Ls\obj\Debug\Ls.csproj.CopyComplete

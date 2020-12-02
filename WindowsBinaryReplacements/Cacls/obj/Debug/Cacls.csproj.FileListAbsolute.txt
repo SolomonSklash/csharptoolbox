@@ -1,0 +1,10 @@
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Cacls\bin\Debug\Cacls.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Cacls\bin\Debug\Cacls.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Cacls\bin\Debug\Cacls.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Cacls\obj\Debug\Cacls.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Cacls\obj\Debug\Cacls.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Cacls\obj\Debug\Cacls.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Cacls.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Cacls.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Cacls.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Cacls\obj\Debug\Cacls.csprojAssemblyReference.cache

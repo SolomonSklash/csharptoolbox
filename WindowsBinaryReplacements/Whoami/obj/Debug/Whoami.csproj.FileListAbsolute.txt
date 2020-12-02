@@ -1,0 +1,10 @@
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Whoami\bin\Debug\Whoami.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Whoami\bin\Debug\Whoami.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Whoami\bin\Debug\Whoami.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Whoami\obj\Debug\Whoami.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Whoami\obj\Debug\Whoami.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Whoami\obj\Debug\Whoami.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Whoami.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Whoami.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Whoami.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Whoami\obj\Debug\Whoami.csprojAssemblyReference.cache

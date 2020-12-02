@@ -1,0 +1,7 @@
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Cp.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Cp.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Cp.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Cp\obj\Debug\Cp.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Cp\obj\Debug\Cp.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Cp\obj\Debug\Cp.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Cp\obj\Debug\Cp.csprojAssemblyReference.cache

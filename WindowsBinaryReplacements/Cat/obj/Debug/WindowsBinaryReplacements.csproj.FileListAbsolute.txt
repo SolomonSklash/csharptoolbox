@@ -1,0 +1,7 @@
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\WindowsBinaryReplacements\bin\Debug\WindowsBinaryReplacements.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\WindowsBinaryReplacements\bin\Debug\WindowsBinaryReplacements.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\WindowsBinaryReplacements\bin\Debug\WindowsBinaryReplacements.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\WindowsBinaryReplacements\obj\Debug\WindowsBinaryReplacements.csprojAssemblyReference.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\WindowsBinaryReplacements\obj\Debug\WindowsBinaryReplacements.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\WindowsBinaryReplacements\obj\Debug\WindowsBinaryReplacements.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\WindowsBinaryReplacements\obj\Debug\WindowsBinaryReplacements.pdb

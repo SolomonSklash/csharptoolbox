@@ -1,0 +1,6 @@
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Hostname.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Hostname.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Hostname.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Hostname\obj\Debug\Hostname.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Hostname\obj\Debug\Hostname.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Hostname\obj\Debug\Hostname.pdb

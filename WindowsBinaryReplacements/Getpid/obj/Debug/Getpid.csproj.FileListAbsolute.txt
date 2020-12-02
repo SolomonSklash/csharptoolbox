@@ -1,0 +1,10 @@
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Getpid\bin\Debug\Getpid.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Getpid\bin\Debug\Getpid.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Getpid\bin\Debug\Getpid.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Getpid\obj\Debug\Getpid.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Getpid\obj\Debug\Getpid.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Getpid\obj\Debug\Getpid.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Getpid.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Getpid.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Getpid.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Getpid\obj\Debug\Getpid.csprojAssemblyReference.cache

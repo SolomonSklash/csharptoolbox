@@ -1,0 +1,13 @@
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\WindowsBinaryReplacements\bin\Debug\Cat.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\WindowsBinaryReplacements\bin\Debug\Cat.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\WindowsBinaryReplacements\bin\Debug\Cat.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\WindowsBinaryReplacements\obj\Debug\Cat.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\WindowsBinaryReplacements\obj\Debug\Cat.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\WindowsBinaryReplacements\obj\Debug\Cat.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Cat.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Cat.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Cat.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Cat\obj\Debug\Cat.csprojAssemblyReference.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Cat\obj\Debug\Cat.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Cat\obj\Debug\Cat.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Cat\obj\Debug\Cat.pdb

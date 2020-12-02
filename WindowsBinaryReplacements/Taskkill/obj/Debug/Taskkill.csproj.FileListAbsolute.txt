@@ -1,0 +1,6 @@
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Taskkill.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Taskkill.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Taskkill.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Taskkill\obj\Debug\Taskkill.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Taskkill\obj\Debug\Taskkill.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Taskkill\obj\Debug\Taskkill.pdb

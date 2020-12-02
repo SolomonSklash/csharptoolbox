@@ -1,0 +1,7 @@
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Encode.exe.config
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Encode.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\bin\Encode.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Encode\obj\Debug\Encode.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Encode\obj\Debug\Encode.exe
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Encode\obj\Debug\Encode.pdb
+C:\Users\localadmin\source\repos\WindowsBinaryReplacements\Encode\obj\Debug\Encode.csprojAssemblyReference.cache
