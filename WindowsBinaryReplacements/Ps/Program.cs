@@ -11,6 +11,8 @@ namespace Ps
 {
     public class Program
     {
+        [DllImport("kernel32.dll")]
+        static extern bool ProcessIdToSessionId(uint dwProcessId, out uint pSessionId);
         [DllImport("kernel32.dll", SetLastError = true, CallingConvention = CallingConvention.Winapi)]
         [return: MarshalAs(UnmanagedType.Bool)]
         internal static extern bool IsWow64Process([In] IntPtr process, [Out] out bool wow64Process);
@@ -146,8 +148,8 @@ namespace Ps
                 Console.WriteLine("\n[*] Not running \"ps\" in a high integrity process. Results will be limited.\n");
             }
 
-            Console.WriteLine("PID     PPID    Arch   Owner" + new string(' ', biggestOwnerSize - 5) + "   Process Name");
-            Console.WriteLine("=====   =====   ====   =====" + new string('=', biggestOwnerSize - 5) + "   ============");
+            Console.WriteLine("PID     PPID    Arch   Session   Owner" + new string(' ', biggestOwnerSize - 5) + "   Process Name");
+            Console.WriteLine("=====   =====   ====   =======   =====" + new string('=', biggestOwnerSize - 5) + "   ============");
             foreach (int pid in pids)
             {
                 Process process = Process.GetProcessById(0); // fall back option so things don't break
@@ -156,7 +158,17 @@ namespace Ps
                     process = Process.GetProcessById(pid);
                 }
                 catch { }
-                
+                String strSessID;
+                try
+                {
+                    uint sessID;
+                    ProcessIdToSessionId((uint)pid, out sessID);
+                    strSessID = sessID.ToString();
+                }
+                catch(Exception)
+                {
+                    strSessID = "X";
+                }
                 String architecture;
                 try
                 {
@@ -189,7 +201,7 @@ namespace Ps
                     ppidString = "X";
                 }
 
-                Console.WriteLine(pid.ToString() + new string(' ', 8 - pid.ToString().Length) + ppidString + new string(' ', 8 - ppidString.Length) + architecture + new string(' ', 7 - architecture.Length) + userName + new string(' ', biggestOwnerSize - userName.Length + 3) + process.ProcessName);
+                Console.WriteLine(pid.ToString() + new string(' ', 8 - pid.ToString().Length) + ppidString + new string(' ', 8 - ppidString.Length) + architecture + new string(' ', 7 - architecture.Length) + strSessID + new string(' ', 10 - strSessID.Length) + userName + new string(' ', biggestOwnerSize - userName.Length + 3) + process.ProcessName);
             }
         }
     }
