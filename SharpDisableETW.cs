@@ -48,7 +48,7 @@ namespace SharpDisableETW
                 Win32.VirtualProtect(etwEventSend, (UIntPtr)patch.Length, oldProtect, out oldProtect);
                 Console.WriteLine("Patched E.T.W!");
             }
-            catch
+            catch (Exception ex)
             {
                 Console.WriteLine("Could not patch E.T.W :(");
                 Console.WriteLine("{0}", ex.Message);
