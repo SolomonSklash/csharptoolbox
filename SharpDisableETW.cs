@@ -23,13 +23,14 @@ namespace SharpDisableETW
         static void Main(string[] args)
         {
 
-            if(IntPtr.Size == 4)
+            if(Environment.Is64BitOperatingSystem)
             {
-                Fix(new byte[] { 0xc2, 0x14, 0x00 });
+                Fix(new byte[] { 0xc3, 0x00 });
+                
             }
             else
             {
-                Fix(new byte[] { 0xc3, 0x00 });
+                Fix(new byte[] { 0xc2, 0x14, 0x00 });
             }
         }
 
@@ -50,6 +51,7 @@ namespace SharpDisableETW
             catch
             {
                 Console.WriteLine("Could not patch E.T.W :(");
+                Console.WriteLine("{0}", ex.Message);
             }
         }
     }
