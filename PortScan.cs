@@ -80,7 +80,7 @@ namespace PortScan
             Console.WriteLine("Example: Portscan.exe 192.168.0.0/24 22,80,443-445");
         }
 
-        public class SharpSploitResultList<T> : IList<T> where T : SharpSploitResult
+        public class ResultList<T> : IList<T> where T : Result
         {
             private List<T> Results { get; } = new List<T>();
 
@@ -91,7 +91,7 @@ namespace PortScan
             private const int PROPERTY_SPACE = 3;
 
             /// <summary>
-            /// Formats a SharpSploitResultList to a string similar to PowerShell's Format-List function.
+            /// Formats a ResultList to a string similar to PowerShell's Format-List function.
             /// </summary>
             /// <returns>string</returns>
             public string FormatList()
@@ -106,7 +106,7 @@ namespace PortScan
             }
 
             /// <summary>
-            /// Formats a SharpSploitResultList as a string. Overrides ToString() for convenience.
+            /// Formats a ResultList as a string. Overrides ToString() for convenience.
             /// </summary>
             /// <returns>string</returns>
             public override string ToString()
@@ -127,7 +127,7 @@ namespace PortScan
                         int maxproplen = 0;
                         for (int j = 0; j < rows.Count; j++)
                         {
-                            SharpSploitResultProperty property = this.Results[j].ResultProperties[i];
+                            ResultProperty property = this.Results[j].ResultProperties[i];
                             string ValueString = property.Value.ToString();
                             rows[j].Append(ValueString);
                             if (maxproplen < ValueString.Length)
@@ -141,7 +141,7 @@ namespace PortScan
                             underlines.Append(new string(' ', Math.Max(2, maxproplen + 2 - this.Results[0].ResultProperties[i].Name.Length)));
                             for (int j = 0; j < rows.Count; j++)
                             {
-                                SharpSploitResultProperty property = this.Results[j].ResultProperties[i];
+                                ResultProperty property = this.Results[j].ResultProperties[i];
                                 string ValueString = property.Value.ToString();
                                 rows[j].Append(new string(' ', Math.Max(this.Results[0].ResultProperties[i].Name.Length - ValueString.Length + 2, maxproplen - ValueString.Length + 2)));
                             }
@@ -220,30 +220,30 @@ namespace PortScan
         /// <summary>
         /// Abstract class that represents a result from a SharpSploit function.
         /// </summary>
-        public abstract class SharpSploitResult
+        public abstract class Result
         {
-            protected internal abstract IList<SharpSploitResultProperty> ResultProperties { get; }
+            protected internal abstract IList<ResultProperty> ResultProperties { get; }
         }
 
         /// <summary>
-        /// SharpSploitResultProperty represents a property that is a member of a SharpSploitResult's ResultProperties.
+        /// ResultProperty represents a property that is a member of a Result's ResultProperties.
         /// </summary>
-        public class SharpSploitResultProperty
+        public class ResultProperty
         {
             public string Name { get; set; }
             public object Value { get; set; }
         }
 
-        public sealed class GenericObjectResult : SharpSploitResult
+        public sealed class GenericObjectResult : Result
         {
             public object Result { get; }
-            protected internal override IList<SharpSploitResultProperty> ResultProperties
+            protected internal override IList<ResultProperty> ResultProperties
             {
                 get
                 {
-                    return new List<SharpSploitResultProperty>
+                    return new List<ResultProperty>
                     {
-                        new SharpSploitResultProperty
+                        new ResultProperty
                         {
                             Name = this.Result.GetType().Name,
                             Value = this.Result
@@ -258,28 +258,28 @@ namespace PortScan
             }
         }
 
-        public sealed class PortScanResult : SharpSploitResult
+        public sealed class PortScanResult : Result
         {
             public string ComputerName { get; } = "";
             public int Port { get; } = 0;
             public bool IsOpen { get; set; } = false;
-            protected internal override IList<SharpSploitResultProperty> ResultProperties
+            protected internal override IList<ResultProperty> ResultProperties
             {
                 get
                 {
-                    return new List<SharpSploitResultProperty>
+                    return new List<ResultProperty>
                     {
-                        new SharpSploitResultProperty
+                        new ResultProperty
                         {
                             Name = "ComputerName",
                             Value = this.ComputerName
                         },
-                        new SharpSploitResultProperty
+                        new ResultProperty
                         {
                             Name = "Port",
                             Value = this.Port
                         },
-                        new SharpSploitResultProperty
+                        new ResultProperty
                         {
                             Name = "IsOpen",
                             Value = this.IsOpen
@@ -296,7 +296,7 @@ namespace PortScan
             }
         }
 
-        public static SharpSploitResultList<PortScanResult> PortScan(string ComputerNames, IList<int> Ports, int Timeout = 250, int Threads = 100)
+        public static ResultList<PortScanResult> PortScan(string ComputerNames, IList<int> Ports, int Timeout = 250, int Threads = 100)
         {
             IList<string> scanAddresses = ConvertCidrToIPs(ComputerNames).Distinct().ToList();
             IList<int> scanPorts = Ports.Where(P => P > 1 && P < 65536).Distinct().ToList();
@@ -350,7 +350,7 @@ namespace PortScan
                 }
                 waiter.Wait(Timeout * scanAddresses.Count * Ports.Count);
             }
-            SharpSploitResultList<PortScanResult> results = new SharpSploitResultList<PortScanResult>();
+            ResultList<PortScanResult> results = new ResultList<PortScanResult>();
             results.AddRange(portScanResults);
 
             return results;
